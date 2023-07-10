@@ -1,0 +1,73 @@
+/* ================
+ Common Style here
+=================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Lato;
+    line-height: 0.8;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* ================
+ Common Style here
+=================== */
+
+/*======================
+ Banner Part Starts Here
+ =======================*/
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_column{
+    width: 50%;
+    padding-bottom: 150px;
+}
+.banner_heading{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 200px;
+}
+.banner_text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 32px 0 35px;
+}
+.banner_btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    background: #E55473;
+}
+.banner_img {
+    background-image: url("./Asset/banner.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 600px;
+    height: 600px;
+}
+/*====================
+ Banner Part Ends Here
+ =====================*/
+
+/*========================= 
+ Featured part starts here
+===========================*/
+
+/*====================== 
+ Featured part ends here
+========================*/
