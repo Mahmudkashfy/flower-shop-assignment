@@ -138,6 +138,7 @@
 .ftr_extra{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 128px;
     padding: 86px 175px 86px 175px;
     background: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
@@ -162,4 +163,59 @@
 }
 /*====================== 
  Featured part ends here
+========================*/
+
+/*======================== 
+ Deal section starts here 
+==========================*/
+.hot_deal{
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.deal_container{
+    display: flex;
+    justify-content: center;
+    gap: 186px;
+}
+.left_container{
+    width: 40%;
+    text-align: center;
+}
+.deal_heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding: 230px 10px 24px;
+}
+.deal_pera{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 30px;
+    margin-bottom: 50px;
+}
+.deal_btn{
+    padding: 15px 35px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.deal_img{
+    background-image: url("./Asset/deal.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 420px;
+    margin: 100px 0;
+}
+/*====================== 
+ Deal section ends here 
 ========================*/
