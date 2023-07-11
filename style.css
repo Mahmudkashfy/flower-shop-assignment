@@ -7,8 +7,8 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: Lato;
     line-height: 0.8;
+    font-family: 'Lato', sans-serif;
 }
 .container{
     width: 1440px;
@@ -284,3 +284,45 @@
 /*========================== 
  Instagram section ends here
  ===========================*/
+
+ /*========================= 
+  footer section starts here
+  ==========================*/
+  footer{
+    background: #111010;
+    padding: 128px 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  }
+  .footer_cont{
+    text-align: center;
+  }
+  .footer_heading{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+  }
+  .footer_heading span{
+    color: #fff;
+  }
+  .footer_pera{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 0 30px;
+  }
+  .copyRight_c{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+ /*======================= 
+  footer section ends here
+  ========================*/
