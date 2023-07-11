@@ -11,7 +11,7 @@
     font-family: 'Lato', sans-serif;
 }
 .container{
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
 }
 .sec_heading{
@@ -232,7 +232,7 @@
     margin: 48px 0 128px;
 }
 .insta_img_box{
-    width: 342px;
+    width: 22%;
     height: 396px;
 }
 .insta_contact{
