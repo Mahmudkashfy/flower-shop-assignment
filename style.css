@@ -11,7 +11,7 @@
     font-family: 'Lato', sans-serif;
 }
 .container{
-    width: 1400px;
+    width: 1140px;
     margin: 0 auto;
 }
 .sec_heading{
@@ -96,12 +96,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
 }
 .ftr_box img{
-    width: 410px;
-    height: 520px;
-    padding: 100px 78px 0 78px;
+    width: 350px;
+    height: 380px;
+    padding: 80px 60px 0 60px;
     object-fit: fill;
 }
 .ftr_img_1{
@@ -175,7 +175,7 @@
 .deal_container{
     display: flex;
     justify-content: center;
-    gap: 186px;
+    gap: 180px;
 }
 .left_container{
     width: 40%;
@@ -229,12 +229,14 @@
 }
 .insta_img_container{
     display: flex;
+    gap: 25px;
     justify-content: space-between;
     margin: 48px 0 128px;
 }
-.insta_img_box{
-    width: 22%;
-    height: 396px;
+
+.insta_img_box img{
+    width: 100%;
+    height: 100%;
 }
 .insta_contact{
     width: 100%;
